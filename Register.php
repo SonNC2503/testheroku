@@ -186,7 +186,7 @@
 			</form>
 			<?php
 		    //Ket noi theo Mysqli procedural
-		    $connect = mysqli_connect('localhost','root','','tunesource');
+		    $connect = mysqli_connect('3.132.234.157','sonnc','123@123a','sonnc');
 		    if(!$connect){  # dấu ! là chỉ khi nào thất bại thì mới thông báo còn thành công thì k
 		        echo "Failure Connect!";
 		    }
