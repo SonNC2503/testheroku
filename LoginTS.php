@@ -194,7 +194,7 @@
 				<input  type="submit" name="login" value="Log In" class="form-submit">
 			</form>
 			<?php
-			$connect = mysqli_connect('localhost', 'root', '', 'tunesource');
+			$connect = mysqli_connect('3.132.234.157','sonnc','123@123a','sonnc');
 			if(!$connect){
 				echo "Failure Connect!";
 			}
